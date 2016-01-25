@@ -68,18 +68,18 @@ public:
         PideePinMap pinMap;
         PideeSettings () {
             // Configutation, order of similar feature
-            pinMap.insert( "button",    GpioPin( FEATURE_TYPE_BUTTON,  1, 1, 1 ) );
-            pinMap.insert( "dip-1",     GpioPin( FEATURE_TYPE_DIP, 1, 1, 1 ) );
-            pinMap.insert( "dip-2",     GpioPin( FEATURE_TYPE_DIP, 1, 1, 1 ) );
-            pinMap.insert( "dip-3",     GpioPin( FEATURE_TYPE_DIP, 1, 1, 1 ) );
-            pinMap.insert( "dip-4",     GpioPin( FEATURE_TYPE_DIP, 1, 1, 1 ) );
-            pinMap.insert( "dip-5",     GpioPin( FEATURE_TYPE_DIP, 1, 1, 1 ) );
-            pinMap.insert( "dip-6",     GpioPin( FEATURE_TYPE_DIP, 1, 1, 1 ) );
-            pinMap.insert( "dip-7",     GpioPin( FEATURE_TYPE_DIP, 1, 1, 1 ) );
-            pinMap.insert( "dip-8",     GpioPin( FEATURE_TYPE_DIP, 1, 1, 1 ) );
-            pinMap.insert( "led-red",   GpioPin( FEATURE_TYPE_LED, 1, 1, 1 ) );
-            pinMap.insert( "led-green", GpioPin( FEATURE_TYPE_LED, 1, 1, 1 ) );
-            pinMap.insert( "led-blue",  GpioPin( FEATURE_TYPE_LED, 1, 1, 1 ) );
+            pinMap.insert( "button",    PideeGPIOPin( FEATURE_TYPE_BUTTON,  1, 1, 1 ) );
+            pinMap.insert( "dip-1",     PideeGPIOPin( FEATURE_TYPE_DIP, 1, 1, 1 ) );
+            pinMap.insert( "dip-2",     PideeGPIOPin( FEATURE_TYPE_DIP, 1, 1, 1 ) );
+            pinMap.insert( "dip-3",     PideeGPIOPin( FEATURE_TYPE_DIP, 1, 1, 1 ) );
+            pinMap.insert( "dip-4",     PideeGPIOPin( FEATURE_TYPE_DIP, 1, 1, 1 ) );
+            pinMap.insert( "dip-5",     PideeGPIOPin( FEATURE_TYPE_DIP, 1, 1, 1 ) );
+            pinMap.insert( "dip-6",     PideeGPIOPin( FEATURE_TYPE_DIP, 1, 1, 1 ) );
+            pinMap.insert( "dip-7",     PideeGPIOPin( FEATURE_TYPE_DIP, 1, 1, 1 ) );
+            pinMap.insert( "dip-8",     PideeGPIOPin( FEATURE_TYPE_DIP, 1, 1, 1 ) );
+            pinMap.insert( "led-red",   PideeGPIOPin( FEATURE_TYPE_LED, 1, 1, 1 ) );
+            pinMap.insert( "led-green", PideeGPIOPin( FEATURE_TYPE_LED, 1, 1, 1 ) );
+            pinMap.insert( "led-blue",  PideeGPIOPin( FEATURE_TYPE_LED, 1, 1, 1 ) );
         };
     }
 
